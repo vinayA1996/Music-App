@@ -8,15 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AuthenticationApplication" />
+        <module name="SpotifyApplication" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AuthenticationApplication" target="11" />
+      <module name="SpotifyApplication" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AuthenticationApplication" options="-parameters" />
+      <module name="SpotifyApplication" options="-parameters" />
     </option>
   </component>
 </project>

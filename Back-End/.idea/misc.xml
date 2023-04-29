@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/AuthenticationApplication/pom.xml" />
+        <option value="$PROJECT_DIR$/musicapp/AuthenticationApplication/pom.xml" />
+        <option value="$PROJECT_DIR$/musicapp/SpotifyApplication/pom.xml" />
       </list>
     </option>
   </component>
