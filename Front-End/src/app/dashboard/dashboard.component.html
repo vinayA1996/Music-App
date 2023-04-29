@@ -1,0 +1,25 @@
+<body>
+  <div class="container" >
+    <div class="row cards-wrapper">
+      <div class="col-sm-6 col-md-4 col-lg-3 song-card" *ngFor="let song of songs">
+        <div class="card">
+            <h3 id="songName">{{song.name}}</h3>
+          <img src="{{ song.image }}" alt="{{ song.name }}" class="card-img-top">
+          <div class="">
+            <div class="card-info">
+              <h4>song Informations:-</h4>
+              <h5>song Artist    : {{song.artistName}}</h5>
+              <h5>song duration : {{song.duration}} min</h5>
+              <div id="song-player"> <app-song-player [songPath]="song.path"></app-song-player></div>
+             
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+   
+  
+</body>
